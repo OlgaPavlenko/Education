@@ -16,5 +16,10 @@ namespace Figure_Polimorphysm
             this.X = X;
             this.Y = Y;
         }
+
+        public virtual void Draw()
+        {
+            Console.WriteLine($"Draw figure");
+        }
     }
 }

@@ -24,24 +24,8 @@ namespace Figure_Polimorphysm
 
             foreach (var item in figures)
             {
-                if (item is Circle)
-                {
-                    Circle circle = (Circle)item;
-                    circle.Draw();
-                }
-
-                if (item is Square square)
-                {
-                    square.Draw();
-                }
-
-                if (item is Triangle triangle)
-                {
-                    triangle = item as Triangle;
-                    triangle.Draw();
-                }
+                item.Draw();
             }
-
         }
     }
 }

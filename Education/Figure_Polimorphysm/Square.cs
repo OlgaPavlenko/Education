@@ -26,7 +26,7 @@ namespace Figure_Polimorphysm
             }
         }
 
-        public void Draw()
+        public override void Draw()
         {
             Console.WriteLine($"Drawed square with sideLength: {sideLength}");
         }

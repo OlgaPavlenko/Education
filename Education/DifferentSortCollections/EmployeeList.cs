@@ -16,7 +16,8 @@ namespace DifferentSortCollections
             new Employee("Vlad", "Radchenko", "M", 23, "Intetics"),
             new Employee("Kirill", "Novikov", "M", 28, "Intetics"),
             new Employee("Tatiana", "Rygik", "F", 36, "Intetics"),
-            new Employee("Olga", "Pavlenko", "F", 35, "Intetics")
+            new Employee("Olga", "Pavlenko", "F", 35, "Intetics"),
+            new Employee("Oleg", "Reshetilo", "M", 30, "Intetics")
          };
         }
     }

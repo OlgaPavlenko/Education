@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentListDictionary", "St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentListWithDictionary", "StudentListWithDictionary\StudentListWithDictionary.csproj", "{55CC06C6-D7A4-45F0-A968-42BE0E8A56FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "D:\OneDrive - Intetics Inc\GisSoftDev\StudentDictionary\Queue\Queue.csproj", "{B9ED5FF1-6B64-4B5C-B92B-00AB52A21F25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{55CC06C6-D7A4-45F0-A968-42BE0E8A56FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55CC06C6-D7A4-45F0-A968-42BE0E8A56FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55CC06C6-D7A4-45F0-A968-42BE0E8A56FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9ED5FF1-6B64-4B5C-B92B-00AB52A21F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9ED5FF1-6B64-4B5C-B92B-00AB52A21F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9ED5FF1-6B64-4B5C-B92B-00AB52A21F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9ED5FF1-6B64-4B5C-B92B-00AB52A21F25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

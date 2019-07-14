@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Defered", "Defered\Defered.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferentSortCollections", "DifferentSortCollections\DifferentSortCollections.csproj", "{6FB65425-C4D4-4B52-BAF3-4CAC6664D3D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniteCollections", "UniteCollections\UniteCollections.csproj", "{18B9A0C7-3C16-42AC-8341-C48EF1675695}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6FB65425-C4D4-4B52-BAF3-4CAC6664D3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FB65425-C4D4-4B52-BAF3-4CAC6664D3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FB65425-C4D4-4B52-BAF3-4CAC6664D3D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B9A0C7-3C16-42AC-8341-C48EF1675695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B9A0C7-3C16-42AC-8341-C48EF1675695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B9A0C7-3C16-42AC-8341-C48EF1675695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B9A0C7-3C16-42AC-8341-C48EF1675695}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "D:\OneDrive - Inte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "D:\OneDrive - Intetics Inc\GisSoftDev\StudentDictionary\Stack\Stack.csproj", "{D7767B5F-68C5-4730-944C-B71C99813DD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack2", "Stack2\Stack2.csproj", "{68655651-5756-484D-9913-3F53777A2A86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D7767B5F-68C5-4730-944C-B71C99813DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7767B5F-68C5-4730-944C-B71C99813DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7767B5F-68C5-4730-944C-B71C99813DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68655651-5756-484D-9913-3F53777A2A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68655651-5756-484D-9913-3F53777A2A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68655651-5756-484D-9913-3F53777A2A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68655651-5756-484D-9913-3F53777A2A86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

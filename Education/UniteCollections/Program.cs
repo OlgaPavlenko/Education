@@ -15,8 +15,8 @@ namespace UniteCollections
 
             IEnumerable<string> employeeUn = employee1.Cast<string>().Concat(employee2);
             IEnumerable<string> employeeWithoutDupls = employee1.Cast<string>().Union(employee2);
-            IEnumerable<string> employeeOnlyDupls = employee1.Cast<string>().Intersect(employee2);
-            employeeOnlyDupls.ToList().Add("Epty Mopty");
+            List<string> employeeOnlyDupls = employee1.Cast<string>().Intersect(employee2).ToList();
+            employeeOnlyDupls.Add("Epty Mopty");
 
             foreach (var item in employeeOnlyDupls)
             {

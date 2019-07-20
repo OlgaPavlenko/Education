@@ -100,7 +100,10 @@ namespace PractiseStrings
         {
             string stroka = "aagafg agdadga ? dafga adfgagf afadfg? afdafagdfga";
             int startPoint = stroka.IndexOf("?");
-            
+            string startStroka = stroka.Substring(startPoint);
+            int endPoint = startStroka.IndexOf("?");
+            string endStroka = startStroka.Substring(endPoint);
+            Console.WriteLine(endStroka);
         }
     }
 }

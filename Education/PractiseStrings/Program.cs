@@ -78,7 +78,7 @@ namespace PractiseStrings
         {
             string stroka = "Sdfaf  Afafga Dfgagd  Adfgadfga  Adg";
             string result = string.Empty;
-            
+
             string[] words = stroka.Split(new char[] { });
 
             foreach (string item in words)
@@ -98,12 +98,24 @@ namespace PractiseStrings
 
         public static void BetweenQuestionMark()
         {
-            string stroka = "aagafg agdadga ? dafga adfgagf afadfg? afdafagdfga";
+            string stroka = "sfasf/sf? chto-to ponyatnoe glazzu ?fga";
             int startPoint = stroka.IndexOf("?");
-            string startStroka = stroka.Substring(startPoint);
-            int endPoint = startStroka.IndexOf("?");
-            string endStroka = startStroka.Substring(endPoint);
-            Console.WriteLine(endStroka);
+            string tempStroka = string.Empty;
+            
+            string startStroka = stroka.Substring(startPoint + 1);
+            for (int i = 0; i < startStroka.IndexOf("?"); i++)
+            {
+                if (!(startStroka[i] == ' '))
+                {
+                    tempStroka += startStroka[i];
+                }
+                
+                else if (startStroka[i] == ' ')
+                {
+                    continue;
+                }
+            }
+            Console.WriteLine(tempStroka);
         }
     }
 }

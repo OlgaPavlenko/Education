@@ -14,7 +14,8 @@ namespace PractiseStrings
             //CountSymbol();
             //JoinStrings();
             //DelDoubleSpaces();
-            BetweenQuestionMark();
+            //BetweenQuestionMark();
+            FindWord();
         }
 
         public static void DelDupls()
@@ -116,6 +117,21 @@ namespace PractiseStrings
                 }
             }
             Console.WriteLine(tempStroka);
+        }
+
+        public static void FindWord()
+        {
+            string stroka = "sfasf/sf? chto-to ponyatnoe glazzu ?fga";
+            int wordPosision = 1;
+            string[] words = stroka.Split(new char[] { });
+
+            for (int i = 0; i < words.Length; i++)
+            {
+                if (i == wordPosision)
+                {
+                    Console.WriteLine(words[wordPosision].First());
+                }
+            }
         }
     }
 }

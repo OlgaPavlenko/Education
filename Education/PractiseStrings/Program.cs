@@ -16,7 +16,8 @@ namespace PractiseStrings
             //DelDoubleSpaces();
             //BetweenQuestionMark();
             //FindWord();
-            WordsReverse();
+            //WordsReverse();
+            LongerShorterWord();
         }
 
         public static void DelDupls()
@@ -103,7 +104,7 @@ namespace PractiseStrings
             string stroka = "sfasf/sf? chto-to ponyatnoe glazzu ?fga";
             int startPoint = stroka.IndexOf("?");
             string tempStroka = string.Empty;
-            
+
             string startStroka = stroka.Substring(startPoint + 1);
             for (int i = 0; i < startStroka.IndexOf("?"); i++)
             {
@@ -111,7 +112,7 @@ namespace PractiseStrings
                 {
                     tempStroka += startStroka[i];
                 }
-                
+
                 else if (startStroka[i] == ' ')
                 {
                     continue;
@@ -142,12 +143,33 @@ namespace PractiseStrings
             string[] temp = new string[words.Length];
             string result = string.Empty;
 
-           
-                for (int j = words.Length-1; j >= 0; j--)
+            for (int j = words.Length - 1; j >= 0; j--)
+            {
+                result += words[j] + " ";
+            }
+            Console.WriteLine(result);
+        }
+
+        public static void LongerShorterWord()
+        {
+            string stroka = "s chot ponyatnoe glazzu fga";
+            string[] words = stroka.Split(new char[] { });
+            string min = words[0];
+            string max = string.Empty;
+
+            for (int i = 0; i < words.Length - 1; i++)
+            {
+                if (max.Length < words[i+1].Length)
                 {
-                  result += words[j] + " ";
+                    max = words[i];
                 }
-                Console.WriteLine(result);
+                else if (min.Length > words[i + 1].Length)
+                {
+                    min = words[i + 1];
+                }
+            }
+            Console.WriteLine(max);
+            Console.WriteLine(min);
         }
     }
 }

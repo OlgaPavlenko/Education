@@ -15,7 +15,8 @@ namespace PractiseStrings
             //JoinStrings();
             //DelDoubleSpaces();
             //BetweenQuestionMark();
-            FindWord();
+            //FindWord();
+            WordsReverse();
         }
 
         public static void DelDupls()
@@ -132,6 +133,21 @@ namespace PractiseStrings
                     Console.WriteLine(words[wordPosision].First());
                 }
             }
+        }
+
+        public static void WordsReverse()
+        {
+            string stroka = "sfasf/sf? chto-to ponyatnoe glazzu ?fga";
+            string[] words = stroka.Split(new char[] { });
+            string[] temp = new string[words.Length];
+            string result = string.Empty;
+
+           
+                for (int j = words.Length-1; j >= 0; j--)
+                {
+                  result += words[j] + " ";
+                }
+                Console.WriteLine(result);
         }
     }
 }

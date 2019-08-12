@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JadeSmith", "JadeSmith\JadeSmith.csproj", "{7D172F97-E751-4CBE-BAD1-5D360F9016B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Printer", "Printer\Printer.csproj", "{8C041E82-C8DC-4348-A336-A8079DE68A0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vowels", "Vowels\Vowels.csproj", "{80FBF426-AED8-46F0-8EC4-F52C000BE29F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D172F97-E751-4CBE-BAD1-5D360F9016B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D172F97-E751-4CBE-BAD1-5D360F9016B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D172F97-E751-4CBE-BAD1-5D360F9016B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D172F97-E751-4CBE-BAD1-5D360F9016B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C041E82-C8DC-4348-A336-A8079DE68A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C041E82-C8DC-4348-A336-A8079DE68A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C041E82-C8DC-4348-A336-A8079DE68A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C041E82-C8DC-4348-A336-A8079DE68A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80FBF426-AED8-46F0-8EC4-F52C000BE29F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80FBF426-AED8-46F0-8EC4-F52C000BE29F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80FBF426-AED8-46F0-8EC4-F52C000BE29F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80FBF426-AED8-46F0-8EC4-F52C000BE29F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
